@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "최신 AI 기술과 개발 트렌드를 배우고 실무에 적용하세요. 실전 프로젝트부터 기초 이론까지 체계적인 커리큘럼을 제공합니다.",
   keywords: "AI, 개발, 교육, 프로그래밍, 코딩, 온라인 강의",
   authors: [{ name: "AI 개발 교육 플랫폼" }],
-  metadataBase: new URL('https://your-domain.com'),
+  metadataBase: new URL('https://runbuild-ai.vercel.app'),
   openGraph: {
     title: "AI 개발 교육 플랫폼",
     description: "최신 AI 기술과 개발 트렌드를 배우고 실무에 적용하세요.",
@@ -57,8 +57,7 @@ export const metadata: Metadata = {
     maximumScale: 1,
   },
   verification: {
-    google: 'your-google-site-verification',
-    naver: 'your-naver-site-verification',
+    google: 'your-google-site-verification'
   },
 };
 
@@ -71,7 +70,7 @@ export default function RootLayout({
     <html lang="ko">
       <head>
         <meta name="theme-color" content="#000000" />
-        <link rel="canonical" href="https://your-domain.com" />
+        <link rel="canonical" href="https://runbuild-ai.vercel.app" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
