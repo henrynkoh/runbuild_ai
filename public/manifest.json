@@ -1,0 +1,39 @@
+{
+  "name": "AI 개발 교육 플랫폼",
+  "short_name": "AI 교육",
+  "description": "최신 AI 기술과 개발 트렌드를 배우고 실무에 적용하세요.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "무료 강의",
+      "url": "/free-courses",
+      "description": "무료 강의 둘러보기"
+    },
+    {
+      "name": "학습 자료",
+      "url": "/resources",
+      "description": "학습 자료 살펴보기"
+    }
+  ],
+  "categories": ["education", "development", "ai"],
+  "lang": "ko-KR",
+  "dir": "ltr"
+} 
